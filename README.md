@@ -26,7 +26,7 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
     
   Solución:
     
-    
+    ```js
      const sumArray = (array, n) => {
       for (let i = 0; i < array.length; i++){
         for( let j = i + 1; j < array.length; j++){
@@ -41,7 +41,7 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
   
   Solución:
     
-    
+    ```js
     const mayor_ganancia = (array) => {
       var mayor_ganancia = 0
       for (let i = 0; i < array.length ; i++) {
@@ -59,6 +59,7 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
   
    Solución:
     
+    ```js
     const mdSumArray = (arr) => {
       let sum = 0
       for (let i = 0; i < arr.length; i++){
