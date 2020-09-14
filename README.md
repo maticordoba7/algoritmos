@@ -25,9 +25,10 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
   Poblema: dado un arreglo de números ordenados y un número entero, verificar si dos números suman el número entero.
     
   Solución:
-    
-    ```js
-     const sumArray = (array, n) => {
+     
+   ```js
+   
+  const sumArray = (array, n) => {
       for (let i = 0; i < array.length; i++){
         for( let j = i + 1; j < array.length; j++){
           if (array[i] + array[j] === n) return true
@@ -35,7 +36,9 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
         }
         return false
       }
-    ```
+  
+   ```
+
   
   3 - Max Value
    Problema: dado un arreglo de acciones, encontrar la mayor ganancia posible de   comprar a un horario y vender después.
