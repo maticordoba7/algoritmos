@@ -44,9 +44,11 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
    Problema: dado un arreglo de acciones, encontrar la mayor ganancia posible de   comprar a un horario y vender después.
   
   Solución:
-    
-    ```js
-    const mayor_ganancia = (array) => {
+  
+  
+   ```js
+   
+  const mayor_ganancia = (array) => {
       var mayor_ganancia = 0
       for (let i = 0; i < array.length ; i++) {
         for (let j = i +1 ; j < array.length; j++) {
@@ -57,14 +59,17 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
        }
        return ("La mayor ganancia es: " + mayor_ganancia)
       }
+  
+   ```
     
 4 - Multidimensional Sum Array
   Problema: Dado un arreglo que está compuesto de subarreglos de longitud variada. Encontrar la suma de cada uno de los elementos.
   
    Solución:
     
-    ```js
-    const mdSumArray = (arr) => {
+   ```js
+   
+  const mdSumArray = (arr) => {
       let sum = 0
       for (let i = 0; i < arr.length; i++){
         if(Array.isArray(arr[i])) sum += mdSumArray(arr[i])
@@ -74,5 +79,5 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
       }
     return sum
     }
-    ```
-    
+  
+   ```
