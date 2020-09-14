@@ -35,6 +35,7 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
         }
         return false
       }
+    ```
   
   3 - Max Value
    Problema: dado un arreglo de acciones, encontrar la mayor ganancia posible de   comprar a un horario y vender después.
@@ -70,5 +71,5 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
       }
     return sum
     }
-    
+    ```
     
