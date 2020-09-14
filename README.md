@@ -22,7 +22,8 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
    ```
   
 2 - Sum Array
-  Poblema: dado un arreglo de números ordenados y un número entero, verificar si dos números suman el número entero.
+
+Poblema: dado un arreglo de números ordenados y un número entero, verificar si dos números suman el número entero.
     
   Solución:
      
@@ -40,8 +41,9 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
    ```
 
   
-  3 - Max Value
-   Problema: dado un arreglo de acciones, encontrar la mayor ganancia posible de   comprar a un horario y vender después.
+3 - Max Value
+  
+ Problema: dado un arreglo de acciones, encontrar la mayor ganancia posible de   comprar a un horario y vender después.
   
   Solución:
   
@@ -63,9 +65,10 @@ En este repositorio estaré publicando mis soluciones a algunos problemas trivia
    ```
     
 4 - Multidimensional Sum Array
-  Problema: Dado un arreglo que está compuesto de subarreglos de longitud variada. Encontrar la suma de cada uno de los elementos.
+
+ Problema: Dado un arreglo que está compuesto de subarreglos de longitud variada. Encontrar la suma de cada uno de los elementos.
   
-   Solución:
+  Solución:
     
    ```js
    
